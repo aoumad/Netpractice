@@ -1,5 +1,13 @@
 # Netpractice
- 
+
+![alt text](https://github.com/aoumad/Netpractice/blob/main/images/Grade.png)
+
+## Introduction
+
+This project will help us discover networking through practical cases.We will have to configure small networks thoughout 10 exercises of 10 different levels of difficulty.
+
+But before that, we need to understand some basic networking concepts that will allow us solving the exercises easily, Shall we start ?
+
 ## Table of Contents
   - [TCP](wWhat-is-a-tcp)
   - [IP address](#ip-address-network-layer)
