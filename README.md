@@ -29,7 +29,11 @@ TCP is the component that collects and reassembles the packets of data, while IP
 ---
 ### IP Address: Network Layer
 
-Networks don’t work without addresses: Whenever you are sending something, you need to specify where it should go and where it came from. To be an effective network engineer or administrator, you need to understand IP addresses backward and forward: you need to be able to think on your feet. If something breaks, likely as not some address assignment has been screwed up. And spotting the problem quickly is likely to be the difference between being the hero, or the guy who "takes a long time to fix the problem." Before covering subnetting, we’d like to thoroughly explore IP addresses in their primal form. This is crucial to understanding subnets.
+Networks don’t work without addresses: Whenever you are sending something, you need to specify where it should go and where it came from.
+
+An IP address is a unique address that identifies a device on the internet or a local network. IP stands for "Internet Protocol," which is the set of rules governing the format of data sent via the internet or local network.
+
+In essence, IP addresses are the identifier that allows information to be sent between devices on a network: they contain location information and make devices accessible for communication. The internet needs a way to differentiate between different computers, routers, and websites. IP addresses provide a way of doing so and form an essential part of how the internet works.
 
 ![alt text](https://github.com/aoumad/Netpractice/blob/main/images/Public-vs-local-IP-addresses.png)
 
