@@ -61,6 +61,11 @@ In essence, IP addresses are the identifier that allows information to be sent b
 
 ![alt text](https://github.com/aoumad/Netpractice/blob/main/images/Public-vs-local-IP-addresses.png)
 
+## What is the difference between private IP address and public IP address?
+- A private IP address is a non-routable address that is used for a local networks, such as a home or office network. Private IP addresses are not accessible from the internet, and are therefore considered more secure than public IP addresses. Private IP addresses are typically in the range of 192.168.0.0 to 192.168.255.255 or 10.0.0.0 to 10.255.255.255.
+- In contrast, a public IP address is a globally unique address that is assigned to a device by an internet service provider (ISP) in order to provide access to the internet. Public IP adresses are routable, which means they can be accessed from anywhere on the internet. Public IP addresses are typically assigned to servers, routers, and other devices that need to be accessible from the internet.
+- In summary, the main difference between private and IP public IP addresses is that private IP addresses are not accessible from the internet, while public IP addresses are. This makes private IP addresses more secure, but also more limited in terms of their functionality.
+
 #### IPv4 Addresses and 32-bit Numbers
 IP addresses are just 32-bit binary numbers, but they’re important binary numbers: you need to how to work with them. When working with subnet masks, new network administrators generally get confused with the ones they haven’t memorized. All the subnet mask amounts to is moving the boundary between the part of the address that represents a "network" and the part that represents a "host." Once you’re comfortable with this method of thinking about IP addresses and masks, you’ve mastered IP addressing.
 
