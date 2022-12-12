@@ -18,14 +18,36 @@ But before that, we need to understand some basic networking concepts that will 
 - [Important Resources](#resources)
 
 ---
-### What is a TCP
+## What is a TCP
 TCP/IP, in full **Transmission Control Protocol/Internet Protocol**, standard Internet communications protocols that allow digital computers to communicate over long distances.
 
 The Internet is a packet-switched network, in which information is broken down into small packets, sent individually over many different routes at the same time, and then reassembled at the receiving end.
 
 TCP is the component that collects and reassembles the packets of data, while IP is responsible for making sure the packets are sent to the right destination. TCP/IP was developed in the 1970s and adopted as the protocol standard for ARPANET (the predecessor to the Internet) in 1983
 
-![alt text](https://github.com/aoumad/Netpractice/blob/main/images/tcp_ip.PNG)
+### How does TCP/IP works?
+- TCP/IP job is to divide the different communication tasks into layers, each layer has a different function. Data goes through 4 individual layers before it is received on the other hand, TCP/IP then goes through these layers in reverse to reassemble the data and represent it to the reciepent.
+
+### What is the difference between OSI MODEL and TCP/IP model?
+
+- The OSI model is more widely known and used than the TCP/IP model. The OSI model is the standard model for understanding how communication takes place over a network, and is used in a variety of different contexts, including education, research, and standardization. The TCP/IP model, on the other hand, is primarily used in the implementation of the Internet and other networks that use the Internet Protocol (IP).
+- The OSI model and the TCP/IP model are both standardized models that are used to help understand how communication takes place over a network. While there are some similarities between the two models, there are also some key differences.
+
+> The OSI model, or the 'Open Systems Interconnection model', is a framework that was developed by (ISO) to help understand how different systems communicate with each other over a network. The OSI model is a seven-layer model, with each layer representing a different aspect of network communication.
+
+> The TCP/IP model, on the other hand, is a four-layer model that was developed by DoD (US departement of defense) to help understand how communication takes place over the Internet. The TCP/IP model is sometimes referred to as the internet model because it is the foundation of internet
+
+|TCP/IP	|OSI |
+|:-:	|:--    |
+|TCP refers to Transmission Control Protocol | OSI refers to Open Systems Interconnection|
+|TCP/IP has 4 layers | OSI has 7 layers |
+|TCP/IP is more reliable | OSI is less reliable|
+|TCP/IP does not have very strict boundaries | OSI has strict boundaries |
+| TCP/IP follows a horizontal approach | OSI follows a vertical approach |
+| Functions of each layer are more general | Each layer has a specific set of functions |
+| Transport layer in TCP/IP does not provide assurance delivery of packets | in OSI model, transport layer provides assurance delivery of packets |
+| Focuses on how communication takes place over the network | Focuses on how different systems communicate with each other over a network |
+
 ---
 ### IP Address: Network Layer
 
