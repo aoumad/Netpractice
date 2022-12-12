@@ -33,6 +33,8 @@ TCP is the component that collects and reassembles the packets of data, while IP
 - The OSI model is more widely known and used than the TCP/IP model. The OSI model is the standard model for understanding how communication takes place over a network, and is used in a variety of different contexts, including education, research, and standardization. The TCP/IP model, on the other hand, is primarily used in the implementation of the Internet and other networks that use the Internet Protocol (IP).
 - The OSI model and the TCP/IP model are both standardized models that are used to help understand how communication takes place over a network. While there are some similarities between the two models, there are also some key differences.
 
+![alt text](https://github.com/aoumad/Netpractice/blob/main/images/OSI%20vs%20TCP:IP.png)
+
 > The OSI model, or the 'Open Systems Interconnection model', is a framework that was developed by (ISO) to help understand how different systems communicate with each other over a network. The OSI model is a seven-layer model, with each layer representing a different aspect of network communication.
 
 > The TCP/IP model, on the other hand, is a four-layer model that was developed by DoD (US departement of defense) to help understand how communication takes place over the Internet. The TCP/IP model is sometimes referred to as the internet model because it is the foundation of internet
@@ -49,7 +51,7 @@ TCP is the component that collects and reassembles the packets of data, while IP
 | Focuses on how communication takes place over the network | Focuses on how different systems communicate with each other over a network |
 
 ---
-### IP Address: Network Layer
+## IP Address: Network Layer
 
 Networks don’t work without addresses: Whenever you are sending something, you need to specify where it should go and where it came from.
 
