@@ -33,6 +33,8 @@ TCP is the component that collects and reassembles the packets of data, while IP
 - The OSI model is more widely known and used than the TCP/IP model. The OSI model is the standard model for understanding how communication takes place over a network, and is used in a variety of different contexts, including education, research, and standardization. The TCP/IP model, on the other hand, is primarily used in the implementation of the Internet and other networks that use the Internet Protocol (IP).
 - The OSI model and the TCP/IP model are both standardized models that are used to help understand how communication takes place over a network. While there are some similarities between the two models, there are also some key differences.
 
+![alt text](https://github.com/aoumad/Netpractice/blob/main/images/OSI%20vs%20TCP:IP.png)
+
 > The OSI model, or the 'Open Systems Interconnection model', is a framework that was developed by (ISO) to help understand how different systems communicate with each other over a network. The OSI model is a seven-layer model, with each layer representing a different aspect of network communication.
 
 > The TCP/IP model, on the other hand, is a four-layer model that was developed by DoD (US departement of defense) to help understand how communication takes place over the Internet. The TCP/IP model is sometimes referred to as the internet model because it is the foundation of internet
@@ -49,7 +51,7 @@ TCP is the component that collects and reassembles the packets of data, while IP
 | Focuses on how communication takes place over the network | Focuses on how different systems communicate with each other over a network |
 
 ---
-### IP Address: Network Layer
+## IP Address: Network Layer
 
 Networks don’t work without addresses: Whenever you are sending something, you need to specify where it should go and where it came from.
 
@@ -58,6 +60,11 @@ An IP address is a unique address that identifies a device on the internet or a 
 In essence, IP addresses are the identifier that allows information to be sent between devices on a network: they contain location information and make devices accessible for communication. The internet needs a way to differentiate between different computers, routers, and websites. IP addresses provide a way of doing so and form an essential part of how the internet works.
 
 ![alt text](https://github.com/aoumad/Netpractice/blob/main/images/Public-vs-local-IP-addresses.png)
+
+## What is the difference between private IP address and public IP address?
+- A private IP address is a non-routable address that is used for a local networks, such as a home or office network. Private IP addresses are not accessible from the internet, and are therefore considered more secure than public IP addresses. Private IP addresses are typically in the range of 192.168.0.0 to 192.168.255.255 or 10.0.0.0 to 10.255.255.255.
+- In contrast, a public IP address is a globally unique address that is assigned to a device by an internet service provider (ISP) in order to provide access to the internet. Public IP adresses are routable, which means they can be accessed from anywhere on the internet. Public IP addresses are typically assigned to servers, routers, and other devices that need to be accessible from the internet.
+- In summary, the main difference between private and IP public IP addresses is that private IP addresses are not accessible from the internet, while public IP addresses are. This makes private IP addresses more secure, but also more limited in terms of their functionality.
 
 #### IPv4 Addresses and 32-bit Numbers
 IP addresses are just 32-bit binary numbers, but they’re important binary numbers: you need to how to work with them. When working with subnet masks, new network administrators generally get confused with the ones they haven’t memorized. All the subnet mask amounts to is moving the boundary between the part of the address that represents a "network" and the part that represents a "host." Once you’re comfortable with this method of thinking about IP addresses and masks, you’ve mastered IP addressing.
