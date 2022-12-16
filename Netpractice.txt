@@ -1,0 +1,14 @@
+Q&A must-know before pushing the project!
+
+
+
+Q: What is a mask? why we need using mask approach?
+
+A: Masking, in the context of computer networking, refers to the practice of obscuring or hiding certain parts of an IP address or other identifier. This is often done for security or privacy reasons, in order to prevent the original identity of the device or user from being easily determined.
+There are several benefits to using masking in networking:
+    -Security: Masking can help to protect the privacy of users and devices by obscuring their true identities from other parties on the network. This can be particularly important in cases where sensitive data or activities are being transmitted over the network.
+    -Anonymity: Masking can also help to provide anonymity for users and devices, making it more difficult for others to track their activities or identify them on the network.
+    -Network management: Masking can be used to group devices or users into logical subnets, which can make it easier to manage and configure network resources and settings.
+    -Traffic control: Masking can be used to control and route traffic on a network, by directing certain types of traffic to specific subnets or servers.
+
+Overall, masking is a useful tool for enhancing the security, privacy, and manageability of networks, and it is commonly used in a variety of contexts, including corporate networks, internet service providers, and virtual private networks (VPNs).
